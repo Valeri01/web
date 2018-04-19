@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Овощни градини</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body class="body1">
+	<audio autoplay controls hidden>
+		<source src="pesen.mp3" type="audio/mpeg">
+	</audio>
+	<p align=center> 
+		<img src="./zaglavie.png" height="68" width="1000" alt="image"><br>
+	</p>
+	<ul class="ul1">
+		<li><a class = "t1" href="./v.html">Начало &nbsp </a></li>
+		<li><a class = "t1" href="./vajno1.html">Важно нещо в началото &nbsp </a></li>	
+		<li><a class = "t1" href="./vajno.html">Подрязване &nbsp </a></li>
+		<li><a class = "t1" href="./pruskane.html">Пръскане &nbsp </a></li>
+		<li><a class = "t1" href="./torene.html">Торене &nbsp </a></li>
+		<li><a class = "t1" href="#kinds">Видове &nbsp </a>
+			<ul>
+				<li><a class = "t1" href="./qbulki.html">Ябълка</a></li>
+				<li><a class = "t1" href="./orehi.html">Орех</a></li>
+				<li><a class = "t1" href="./chereshi.html">Череша</a></li>
+				<li><a class = "t1" href="./kaisiq.html">Кайсия</a></li>
+				<li><a class = "t1" href="./sliva.html">Слива</a></li>
+				<li><a class = "t1" href="./krushi.html">Круша</a></li>
+				<li><a class = "t1" href="./leshnik.html">Лешник</a></li>
+				<li><a class = "t1" href="./dula.html">Дюля</a></li>
+			</ul>
+		</li>
+		<li><a class = "t1" href= "./beritba.html">Беритба </a></li>
+	</ul>
+	<p id="datta"></p>
+	<img src="./pr.png" height="231" width="321" alt="image">
+	<img id="track" src="./tractor.png" height="231" width="277" alt="image">
+	<p id = "opisanie">Създаването на трайно насаждение е скъпо и високорисково начинание. Самото наименование трайно подсказва, че ако нещо 
+	не бъде направено както трябва в самото началото, последствията от грешката могат да бъдат много трудно поправими, а понякога и фатални. 
+	Ето защо правилното бизнес планиране е от изключителна важност.</p>
+	<br><br>
+	<br><br><img src="./apple.png" height="132" width="120" alt="image">
+	<img src="./or.png" height="80" width="120" alt="image">   
+	<img src="./ch.png" height="120" width="120" alt="image">  
+	<img src="./kaisiq.png" height="120" width="120" alt="image">  
+	<img src="./sliva.png" height="94" width="120" alt="image">  
+	<img src="./kr.png" height="163" width="120" alt="image">  
+	<img src="./l.png" height="106" width="120" alt="image">  
+	<img src="./dula.png" height="120" width="120" alt="image">  
+	<img src="./grozde.png" height="117" width="120" alt="image">  
+	<img src="./ap.png" height="127" width="120" alt="image"> 
+
+	<script>
+	
+		//var d = new Date();
+		//document.getElementById("datta").innerHTML = d.toUTCString();
+		var currentdate = new Date(); 
+		var datetime = "Last Sync: " + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() +  "  " + " time: "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+		document.getElementById("datta").innerHTML = datetime;
+	</script>
+</body>
+<html>
